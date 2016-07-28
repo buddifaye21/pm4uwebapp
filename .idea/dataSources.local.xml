@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - pm4uTime@68.178.143.2" uuid="606ffc7f-9502-44ba-81bf-8b042867d37c">
+      <secret-storage>master_key</secret-storage>
+      <user-name>pm4uTime</user-name>
+      <schema-pattern>pm4uTime.*</schema-pattern>
+      <default-schemas>pm4uTime.*</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin:10px auto;
+    width: 950px;
+    height:100%;
+    align-content: center;
+    background-color: coral;
+}
+body{
+    position: fixed;
+    width:962px;
+    height:auto;
+    border: 1px solid #000080;
+    background-color: #96B9C1;
+    padding-bottom: 0px;
+    margin: 15px auto;
+    box-shadow: 2px 2px 5px 5px;
+}
+header{
+    background: linear-gradient(15deg,#96B9C1 33%,aliceblue,#96B9C1);
+    background-color: #96B9C1;
+    border-bottom: 1px solid;
+    border-color: navy;
+    clear: both;
+}
+img{
+    border: 1px solid navy;
+}
+h1{
+    padding-left: 20px;
+    color: #478971;
+}
+p{
+    padding:10px;
+    color: black;
+}
+.employee_table td{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+header, footer, aside, section{
+    display: block;
+}
+section {
+    overflow-y: auto;
+    width: 74%;
+    height: 529px;
+    float: right;
+    border-left: 1px solid navy;
+    background-color: aliceblue;
+}
+aside {
+    width: 25%;
+    float: left;
+}
+footer{
+    clear: both;
+    text-align: center;
+    font-size: small;
+    border-top: 1px solid navy;
+    background-color: #96B9C1;
+}
+ul{
+    padding: 8px;
+    text-align: center;
+}
+li{
+    padding-bottom: 5px;
+}
+.form{
+    width:200px;
+    padding:10px;
+    margin:27%;
+    text-align: center;
+    border: 1px solid Navy;
+    box-shadow: 1px 1px 2px 2px;
+}
+.loginSection{
+    align-content: space-around;
+}
+.employee_table{
+    margin:30px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #96B9C1;
+}
+.client_table{
+    margin:30px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #96B9C1;
+}
+.client_table td{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+button{
+    background-color: #478971;
+    width: 150px;
+    margin: 5px;
+    padding:3px;
+}
+a{
+    color: aliceblue;
+    font-size: medium;
+    text-decoration: none;
+}
+.table_buttons{
+    text-align: center;
+    background-color: #478971;
+    color: aliceblue;
+    font-size: medium;
+    width: 150px;
+    margin: 5px;
+    padding:3px;
+}
+
+

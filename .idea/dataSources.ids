@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - pm4uTime@68.178.143.2" uuid="606ffc7f-9502-44ba-81bf-8b042867d37c">
+    <database-info product="MySQL" version="5.5.43-37.2-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="pm4uTime"/>
+      <table id="2" parent="1" name="clients"/>
+      <table id="3" parent="1" name="employees"/>
+      <column id="4" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="5" parent="2" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="6" parent="2" name="address">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="7" parent="2" name="primaryPhone">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="8" parent="2" name="additionalPhone">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="9" parent="2" name="email">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="10" parent="2" name="cleaningtype">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="11" parent="2" name="initialCharge">
+        <data-type>double</data-type>
+      </column>
+      <column id="12" parent="2" name="price">
+        <data-type>double</data-type>
+      </column>
+      <column id="13" parent="2" name="active">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="14" parent="2" name="notes">
+        <data-type>varchar(500)</data-type>
+      </column>
+      <key id="15" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="16" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="17" parent="3" name="Fname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="18" parent="3" name="Lname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="19" parent="3" name="address">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="20" parent="3" name="phone">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="21" parent="3" name="hourlyRate">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="22" parent="3" name="email">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="23" parent="3" name="dob">
+        <data-type>date</data-type>
+      </column>
+      <column id="24" parent="3" name="ssn">
+        <data-type>varchar(11)</data-type>
+      </column>
+      <column id="25" parent="3" name="position">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="26" parent="3" name="dateOfHire">
+        <data-type>date</data-type>
+      </column>
+      <column id="27" parent="3" name="dateOfTerm">
+        <data-type>date</data-type>
+      </column>
+      <column id="28" parent="3" name="shirtSize">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="29" parent="3" name="emergencyContact">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <key id="30" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
